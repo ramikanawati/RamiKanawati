@@ -40,6 +40,7 @@ export type Experience = {
   highlights: string[];
   tags: string[];
   accent: "cyan" | "emerald";
+  website?: string;
 };
 
 export const experiences: Experience[] = [
@@ -57,7 +58,8 @@ export const experiences: Experience[] = [
       "Implemented autonomous agents and self-hosted local LLMs on dedicated hardware for privacy-focused, on-prem AI features."
     ],
     tags: ["Next.js", ".NET", "React Native", "PostgreSQL", "Local LLMs"],
-    accent: "emerald"
+    accent: "emerald",
+    website: "https://makkinni.com/"
   },
   {
     company: "Continental Food LLC (Dunkin' UAE & KW · GongCha · Wonder Bee · Booth Cookies)",
@@ -156,6 +158,7 @@ export const projects: Project[] = [
     status: "in-development",
     category: "Platform",
     stack: ["Next.js", ".NET", "React Native", "PostgreSQL", "Local LLMs"],
+    link: "https://makkinni.com/",
     accent: "emerald"
   },
   {

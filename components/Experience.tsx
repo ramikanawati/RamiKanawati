@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, ChevronRight } from "lucide-react";
+import { Briefcase, ChevronRight, ArrowUpRight } from "lucide-react";
 import clsx from "clsx";
 import { Section } from "./Section";
 import { experiences } from "@/lib/data";
@@ -52,14 +52,32 @@ export function Experience() {
                     <div className="flex flex-wrap items-center gap-2">
                       <h3 className="text-xl font-semibold text-white">{exp.role}</h3>
                       <span className="text-white/30">·</span>
-                      <span
-                        className={clsx(
-                          "text-base font-medium",
-                          exp.accent === "cyan" ? "text-cyan-glow" : "text-emerald-glow"
-                        )}
-                      >
-                        {exp.company}
-                      </span>
+                      {exp.website ? (
+                        <a
+                          href={exp.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={clsx(
+                            "group/link inline-flex items-center gap-1 text-base font-medium transition-opacity hover:opacity-80",
+                            exp.accent === "cyan" ? "text-cyan-glow" : "text-emerald-glow"
+                          )}
+                        >
+                          {exp.company}
+                          <ArrowUpRight
+                            size={14}
+                            className="opacity-60 transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5 group-hover/link:opacity-100"
+                          />
+                        </a>
+                      ) : (
+                        <span
+                          className={clsx(
+                            "text-base font-medium",
+                            exp.accent === "cyan" ? "text-cyan-glow" : "text-emerald-glow"
+                          )}
+                        >
+                          {exp.company}
+                        </span>
+                      )}
                     </div>
                     <div className="mt-1 text-xs text-white/45">{exp.type}</div>
                   </div>

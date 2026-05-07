@@ -74,7 +74,15 @@ export function Hero() {
               className="mt-6 max-w-2xl text-lg leading-relaxed text-white/65"
             >
               I&apos;m <span className="text-white">Rami Kanawati</span> — CTO &amp; Co-founder of{" "}
-              <span className="text-cyan-glow">Makkinni LLC</span>, full-stack engineer at{" "}
+              <a
+                href="https://makkinni.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-b border-cyan-glow/30 text-cyan-glow transition-colors hover:border-cyan-glow hover:text-cyan-300"
+              >
+                Makkinni LLC
+              </a>
+              , full-stack engineer at{" "}
               <span className="text-cyan-glow">Continental Food LLC</span> (Dunkin&apos;, GongCha,
               Wonder Bee &amp; Booth Cookies), and architect of autonomous agents on local &amp;
               frontier LLMs. I ship Next.js front ends, React Native apps, and ASP.NET Core APIs

@@ -65,7 +65,23 @@ function Card({ p, index }: { p: Project; index: number }) {
 
         <div className="mt-5">
           <span className="label-mono">{p.category}</span>
-          <h3 className="mt-2 text-xl font-semibold text-white">{p.name}</h3>
+          <div className="mt-2 flex items-start justify-between gap-3">
+            <h3 className="text-xl font-semibold text-white">{p.name}</h3>
+            {p.link && (
+              <a
+                href={p.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Visit ${p.name}`}
+                className="group/link mt-1 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md border border-white/10 bg-white/5 text-white/70 transition-all hover:border-cyan-glow/40 hover:text-cyan-glow"
+              >
+                <ArrowUpRight
+                  size={14}
+                  className="transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5"
+                />
+              </a>
+            )}
+          </div>
           <p className="mt-1 text-sm text-white/55">{p.tagline}</p>
         </div>
 
