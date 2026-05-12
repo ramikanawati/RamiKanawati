@@ -69,7 +69,7 @@ export const experiences: Experience[] = [
     description:
       "End-to-end ownership of loyalty, ordering, HR, and digital signage platforms across the group's brands — Dunkin' UAE & Kuwait, GongCha, Wonder Bee, and Booth Cookies.",
     highlights: [
-      "Built and shipped the digital signage platform on Samsung Tizen + an Angular control panel, replacing third-party software and saving the group ~US$25k/year in licensing fees.",
+      "Built and shipped the digital signage platform on Samsung Tizen + an Angular control panel, replacing third-party software and saving the group ~US$50k/year in licensing fees.",
       "Developed and continuously enhanced the ordering system across Dunkin' and GongCha — payments, real-time order routing, store integration, throughput tuning.",
       "Loyalty & e-commerce: React Native app + Next.js admin + ASP.NET Core services with secure earn/redeem tokenisation and high availability.",
       "Built the HR portal end-to-end: biometric attendance-machine integration, employee self-service, multi-step leave workflows, and role-based access.",
@@ -177,7 +177,7 @@ export const projects: Project[] = [
     name: "Continental Food LLC Platform",
     tagline: "Multi-brand ordering, loyalty, HR & signage · Dunkin' · GongCha · Wonder Bee · Booth Cookies",
     description:
-      "End-to-end platform spanning the group's brands: ordering systems for Dunkin' (UAE & KW) and GongCha, loyalty + e-commerce, an HR portal with attendance-machine integration and leave workflows, and a Samsung Tizen digital-signage stack that replaced licensed software and saved ~US$25k/year.",
+      "End-to-end platform spanning the group's brands: ordering systems for Dunkin' (UAE & KW) and GongCha, loyalty + e-commerce, an HR portal with attendance-machine integration and leave workflows, and a Samsung Tizen digital-signage stack that replaced licensed software and saved ~US$50k/year.",
     status: "shipped",
     category: "Platform",
     stack: [
@@ -193,7 +193,7 @@ export const projects: Project[] = [
     metrics: [
       { label: "Brands", value: "5" },
       { label: "Markets", value: "UAE · KW" },
-      { label: "Saved/yr", value: "~$25k" }
+      { label: "Saved/yr", value: "~$50k" }
     ],
     accent: "cyan"
   },
