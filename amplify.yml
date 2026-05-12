@@ -1,0 +1,24 @@
+version: 1
+applications:
+  - frontend:
+      phases:
+        preBuild:
+          commands:
+            - npm ci --cache .npm --prefer-offline
+        build:
+          commands:
+            # Bake Amplify "Environment variables" into .env.production so the
+            # Next.js SSR/API-route Lambda runtime can read them via process.env.
+            # Amplify exposes them to the build shell but does NOT inject them
+            # into the compute runtime by default.
+            - env | grep -E "^(RESEND_API_KEY|CONTACT_TO_EMAIL|CONTACT_FROM_EMAIL)=" >> .env.production
+            - npm run build
+      artifacts:
+        baseDirectory: .next
+        files:
+          - "**/*"
+      cache:
+        paths:
+          - node_modules/**/*
+          - .next/cache/**/*
+          - .npm/**/*
