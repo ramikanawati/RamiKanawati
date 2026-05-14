@@ -26,7 +26,7 @@ export function Contact() {
           .
         </>
       }
-      subtitle="Open to fractional CTO, lead engineer, and AI-agent build engagements. UK-based · remote-friendly · happy to relocate."
+      subtitle="Open to tech lead, lead engineer, and AI-agent build engagements. UK-based · remote-friendly · happy to relocate."
     >
       <div className="grid gap-6 lg:grid-cols-12">
         <motion.div
@@ -90,7 +90,7 @@ export function Contact() {
                 <div className="text-white/80">→ UK (Ely) · UAE</div>
                 <div className="text-white/80">→ remote · open to relocation</div>
                 <div className="text-white/45">$ engagements --types</div>
-                <div className="text-white/80">→ fractional CTO</div>
+                <div className="text-white/80">→ tech lead</div>
                 <div className="text-white/80">→ lead engineer (full-stack / mobile)</div>
                 <div className="text-white/80">→ AI agent build / consult</div>
                 <div className="text-white/45">$ response_time</div>

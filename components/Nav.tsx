@@ -43,7 +43,7 @@ export function Nav() {
           <div className="hidden sm:flex flex-col leading-tight">
             <span className="text-sm font-semibold text-white">Rami Kanawati</span>
             <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40">
-              CTO · Engineer
+              Tech Lead · Engineer
             </span>
           </div>
         </a>

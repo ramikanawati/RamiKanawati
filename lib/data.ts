@@ -3,7 +3,7 @@
 // used by /api/contact to deliver messages to the inbox.
 export const profile = {
   name: "Rami Kanawati",
-  role: "CTO & Co-founder · Full-Stack Engineer",
+  role: "Tech Lead & Co-founder · Full-Stack Engineer",
   location: "UK · UAE",
   basedIn: "Splitting time between Ely, United Kingdom and the UAE",
   status: "Available for select engagements",
@@ -16,7 +16,7 @@ export const profile = {
   }
 };
 
-export const summary = `Full-stack engineer and AI agent builder. Currently CTO of Makkinni LLC and Application Developer at Dunkin' (UAE & Kuwait). Ships production-grade React/Next.js front ends, React Native mobile apps, and ASP.NET Core APIs on PostgreSQL/MSSQL, deployed on AWS with Docker, Kubernetes, and CI/CD. Architects autonomous AI agents on local and frontier LLMs for privacy-focused workflow automation.`;
+export const summary = `Full-stack engineer and AI agent builder. Currently Tech Lead at Makkinni LLC and Application Developer at Dunkin' (UAE & Kuwait). Ships production-grade React/Next.js front ends, React Native mobile apps, and ASP.NET Core APIs on PostgreSQL/MSSQL, deployed on AWS with Docker, Kubernetes, and CI/CD. Architects autonomous AI agents on local and frontier LLMs for privacy-focused workflow automation.`;
 
 export const techStack = [
   { name: "Next.js", category: "Frontend", status: "active" },
@@ -46,7 +46,7 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "Makkinni LLC",
-    role: "Co-founder & CTO",
+    role: "Co-founder & Tech Lead",
     period: "Apr 2025 — Present",
     type: "Part-time · Educational marketplace startup",
     description:
@@ -152,7 +152,7 @@ export const projects: Project[] = [
   {
     slug: "makkinni",
     name: "Makkinni LLC",
-    tagline: "Educational marketplace · CTO product",
+    tagline: "Educational marketplace · Tech Lead product",
     description:
       "Cross-platform educational marketplace with a Next.js + .NET superadmin panel and a unified React Native mobile app. PostgreSQL schema engineered for complex marketplace transactions; on-prem AI features powered by self-hosted local LLMs.",
     status: "in-development",
@@ -243,7 +243,7 @@ export const creativeLab: CreativeWork[] = [
 
 export const skills = {
   "Leadership & Architecture": [
-    "Co-founder / CTO",
+    "Co-founder / Tech Lead",
     "Technical Leadership",
     "Product Architecture",
     "Engineering Roadmap",

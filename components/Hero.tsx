@@ -73,7 +73,7 @@ export function Hero() {
               variants={item}
               className="mt-6 max-w-2xl text-lg leading-relaxed text-white/65"
             >
-              I&apos;m <span className="text-white">Rami Kanawati</span> — CTO &amp; Co-founder of{" "}
+              I&apos;m <span className="text-white">Rami Kanawati</span> — Tech Lead &amp; Co-founder of{" "}
               <a
                 href="https://makkinni.com/"
                 target="_blank"
@@ -111,7 +111,7 @@ export function Hero() {
             <motion.div variants={item} className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-white/5 pt-6 text-sm">
               <div>
                 <div className="label-mono">Role</div>
-                <div className="mt-1 text-white/85">CTO · Full-Stack</div>
+                <div className="mt-1 text-white/85">Tech Lead · Full-Stack</div>
               </div>
               <div>
                 <div className="label-mono">Stack</div>

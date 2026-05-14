@@ -15,12 +15,12 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rami Kanawati — CTO & Full-Stack Engineer",
+  title: "Rami Kanawati — Tech Lead & Full-Stack Engineer",
   description:
-    "Rami Kanawati — CTO & Co-founder of Makkinni LLC. Full-stack engineer building production React/Next.js, React Native, and .NET systems. Architect of autonomous AI agents on local and frontier LLMs.",
+    "Rami Kanawati — Tech Lead & Co-founder of Makkinni LLC. Full-stack engineer building production React/Next.js, React Native, and .NET systems. Architect of autonomous AI agents on local and frontier LLMs.",
   metadataBase: new URL("https://ramikanawati.com"),
   openGraph: {
-    title: "Rami Kanawati — CTO & Full-Stack Engineer",
+    title: "Rami Kanawati — Tech Lead & Full-Stack Engineer",
     description:
       "Building production-grade web, mobile, and AI agent systems across the UK and UAE.",
     type: "website"
