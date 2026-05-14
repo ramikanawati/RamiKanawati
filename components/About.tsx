@@ -21,7 +21,7 @@ const facts = [
   {
     icon: Building2,
     label: "Current Roles",
-    value: "Co-founder & CTO @ Makkinni LLC · App Developer @ Continental Food LLC (Dunkin', GongCha, Wonder Bee, Booth Cookies)"
+    value: "Co-founder & Tech Lead @ Makkinni LLC · App Developer @ Continental Food LLC (Dunkin', GongCha, Wonder Bee, Booth Cookies)"
   }
 ];
 

@@ -105,7 +105,7 @@ export function ContactForm() {
           name="subject"
           type="text"
           maxLength={200}
-          placeholder="Fractional CTO, AI agent build, etc."
+          placeholder="Tech lead, AI agent build, etc."
         />
       </div>
 

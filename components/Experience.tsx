@@ -20,7 +20,7 @@ export function Experience() {
           .
         </>
       }
-      subtitle="From CTO of a marketplace startup to architecting Dunkin's loyalty stack across two countries."
+      subtitle="From tech lead of a marketplace startup to architecting Dunkin's loyalty stack across two countries."
     >
       <div className="relative">
         <div className="pointer-events-none absolute left-4 top-0 bottom-0 hidden w-px bg-gradient-to-b from-cyan-glow/30 via-white/10 to-transparent sm:block" />
